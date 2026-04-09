@@ -1,0 +1,118 @@
+/* Custom styles for Octofit Tracker */
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1.display-4 {
+  color: #ffd700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #ffffff;
+}
+
+.card-title {
+  color: #ffd700;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #343a40 0%, #495057 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffd700 !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.table {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.table th {
+  background: rgba(0, 0, 0, 0.3);
+  color: #ffd700;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.table td {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.alert-danger {
+  background: rgba(220, 53, 69, 0.8);
+  border-color: #dc3545;
+  color: #ffffff;
+}
+
+.spinner-border {
+  color: #ffd700;
+}
+
+.text-muted {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.list-group-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+/* Logo styles */
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
